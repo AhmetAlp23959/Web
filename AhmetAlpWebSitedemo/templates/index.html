@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Tracker - Home</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename ='css/style.css')}}">
+    <script src="{{ url_for('static',filename='js/main.js') }}"></script>
+</head>
+<body>
+    <header>
+        <h1>Financial Tracker</h1>
+    </header>
+
+    <main>
+        <section class="budget-summary">
+            <h2>Budget Summary</h2>
+            <button onclick="test_function()"> hello </button>
+            <p id="test">financial</p>
+            <!-- Budget summary content will go here -->
+        </section>
+
+        <section class="transactions">
+            <h2>Transactions</h2>
+            <!-- Transactions table or list will go here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Financial Tracker</p>
+    </footer>
+    <script src="{{ url_for('static',filename='js/test.js') }}"></script>
+
+</body>
+</html>
